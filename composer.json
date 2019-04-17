@@ -1,0 +1,38 @@
+{
+  "name": "webarchitect609/bitrix-email-as-login",
+  "description": "Switches Bitrix for using email as user login.",
+  "keywords": [
+    "bitrix",
+    "user",
+    "email",
+    "login"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Gripinskiy",
+      "email": "web-architect@mail.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WebArch\\BitrixEmailAsLogin\\": "src/main"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WebArch\\BitrixEmailAsLogin\\Test\\": "src/test"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "phpunit --coverage-html coverage"
+  }
+}
