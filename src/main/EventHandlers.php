@@ -10,7 +10,7 @@ class EventHandlers
     {
         $eventManager = EventManager::getInstance();
 
-        foreach (['OnBeforeUserUpdate', 'OnBeforeUserRegister'] as $eventType) {
+        foreach (['OnBeforeUserUpdate', 'OnBeforeUserAdd'] as $eventType) {
             $eventManager->addEventHandler(
                 'main',
                 $eventType,
