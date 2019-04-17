@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/webarchitect609/bitrix-email-as-login.svg?branch=master)](https://travis-ci.org/webarchitect609/bitrix-email-as-login)
+
 Переключение Битрикс в режим, когда email используется как логин.
 
 **Пока нестабильная версия - будьте внимательны!**
